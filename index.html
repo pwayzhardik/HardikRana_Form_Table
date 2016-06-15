@@ -1,0 +1,194 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>San Joaquin Valley Town Hall</title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="shortcut icon" href="images/favicon.ico">
+	</head>
+	<body>
+	<div class="header">
+			<img src="images/town_hall_logo.gif">
+			<h2>San Joaquin Vally Town Hall</h2>
+			<h3>Celebrating our <span>75<sup>th<sup></span> Year</h3>
+	</div>
+	
+	<div class="menu">
+				<ul class="navbar">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Speakers</a></li>
+					<li><a href="#">Luncheons</a></li>	
+					<li><a href="#">Tickets</a></li>	
+					<li><a href="#">About Us</a></li>	
+				</ul>
+			
+	</div>
+			
+	<main>
+		<div class="left">
+			<h4>Guest speakers</h4>	
+			<div class="image">
+			<h4>October</h4>
+			<a href="#"><b>Jeffery Toobin</b></a>
+			<image src="images/toobin75.jpg">
+			</div>	
+			
+			<div class="image">
+			<h4>November</h4>
+			<a href="#"><b>Andrew Ross Sorkin</b></a>
+			<image src="images/sorkin75.jpg">
+			</div>	
+			
+			<div class="image">
+			<h4>January</h4>
+			<a href="#"><b>Amy Chua</b></a>
+			<image src="images/chua75.jpg">
+			</div>	
+			
+			<div class="image">
+			<h4>February</h4>
+			<a href="#"><b>Scott Sampson</b></a>
+			<image src="images/sampson75.jpg">
+			</div>	
+		</div>
+		
+		<div class="right">
+				<h3>Order Form</h3>
+				
+				<fieldset>
+				<legend>Member Information</legend>
+			<form method="get" action="table.html">
+			<table align="center">
+				<tr>	
+				<td>Email : </td><td><input type="text" name="email" id="email" value=""></td>
+			  </tr>	
+			  <tr>	
+				<td>First Name :</td><td> <input type="text" name="name" id="name" value=""></td>
+			  </tr>	
+			  <tr>	
+				<td>Last Name:</td><td> <input type="text" name="name" id="name" value=""></td>
+			  </tr>	
+			  <tr>	
+				<td>Address:</td><td> <input type="text" name="name" id="name" value=""></td>
+			  </tr>	
+			  <tr>	
+				<td>City:</td><td> <input type="text" name="name" id="name" value=""></td>
+			  </tr>	
+			  <tr>	
+				<td>State:</td><td> <input type="text" name="name" id="name" value="" placeholder="2-character code" maxlength="2"></td>
+			  </tr>	
+			  <tr>	
+				<td>Zip Code:</td><td> <input type="text" name="name" id="name" value=""placeholder="5 or 9 digits"></td>
+			  </tr>	
+			  <tr>
+				<td>Phone Number:</td><td> <input type="text" name="mobile" id="mobile" value="" maxlength="10" placeholder="999-999-9999">
+				</td>
+			  </tr> 	
+			</table>	
+			
+			</fieldset>
+			
+			<fieldset>
+				<legend>Ordering Information</legend>
+			
+			<table align="center">
+					<tr>
+				<td>
+					Order Type:
+				</td>
+				
+				<td>
+					<select id="order">
+						<option>Member Package</option>
+						<option>Donor Package</option>
+						<option>Single Tickets</option>
+					</select>
+				</td>
+			</tr>
+			  <tr>	
+				<td>Number of Tickets:</td><td> <input type="text" name="name" id="name" value="" placeholder="Number of single tickets"></td>
+			  </tr>
+			</table>
+			</fieldset>
+			
+			<fieldset>
+				<legend>Payment Method</legend>
+			<form method="get" action="table.html">
+			<table align="center">
+				<tr>
+					<td>Bill Me<input type="radio" name="payment" id="payment" value="billme"> Credit Card<input type="radio" name="payment" id="payment" value="billme">
+					</td>
+				</tr>
+			</table>
+			</fieldset>
+			
+			<fieldset>
+				<legend>Credit Card Information</legend>
+			<table align="center">
+				<tr>
+					<td>
+						Card Type:
+					</td>
+					
+					<td>
+						<select id="card">
+							<option>Visa</option>
+							<option>MasterCard</option>
+							<option>Discover</option>
+						</select>
+					</td>
+				</tr>
+			  <tr>	
+				<td>Card Number:</td><td> <input type="text" name="name" id="name" value="" placeholder="16 digits" maxlength="16"></td>
+			  </tr>
+			  <tr>
+					<td>
+						Expiration date:
+					</td>
+					
+					<td>
+						<select id="date">
+							<option>January</option>
+							<option>February</option>
+							<option>March</option>
+							<option>April</option>
+							<option>May</option>
+							<option>June</option>
+							<option>July</option>
+							<option>August</option>
+							<option>September</option>
+							<option>October</option>
+							<option>November</option>
+							<option>December</option>
+						</select>
+					</td>
+					<td>
+						<select id="year">
+							<option>2015</option>
+							<option>2016</option>
+							<option>2017</option>
+							<option>2018</option>
+							<option>2019</option>
+						</select>
+					</td>
+				</tr>
+			</table>
+			</fieldset>
+			<fieldset>
+				<legend>Submit Your Order</legend>
+					<table align="center">
+						
+						<tr id="submit">	
+							<td><input type="button" value="Submit"></td><td> <input type="reset" value="Reset fields"></td>
+						</tr> 
+					</table>
+			</fieldset>
+			</form>
+		</div>
+		
+	</main>
+	
+	<footer>
+		<p>	&copy 2015, San Joaquin Valley Town Hall, Fresno, CA 93755</p>
+	</footer>
+</body>
+</html>
